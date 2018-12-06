@@ -1,3 +1,3 @@
-# python-MQTT
-A personal project using paho MQTT and PyQt5.
-Simple chat tool.
+# python-MQTT  
+A personal project using paho MQTT and PyQt5.  
+A simple chat tool.  
