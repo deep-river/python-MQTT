@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_head">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;多媒体远程终端控制系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_control">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>291</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>远程控制</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_ID">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ID">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;用户ID：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_voice_con">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>语音控制</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_OnVoice">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>开启</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_OffVoice">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_video_con">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>视频控制</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_OffVideo">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_OnVideo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>开启</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_connect">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>40</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>连接</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_subscribe">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>291</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>信息获取</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_voice_sub">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>语音获取</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_RecVoice">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>开启</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UnrecVoice">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_video_sub">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>视频获取</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_RecVideo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>开启</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UnrecVideo">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_radio">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>110</y>
+      <width>401</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>管理</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_add">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>添加好友</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_del">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>删除好友</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_list">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>在线好友</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>30</y>
+       <width>231</width>
+       <height>391</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_exit">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>357</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>425</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
